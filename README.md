@@ -106,7 +106,9 @@ Dayananda Sagar Academy of Technology and Management
 ## 📫 Connect With Me
 
 📧 [hitank2004@gmail.com](mailto:hitank2004@gmail.com)
+
 💼 LinkedIn: https://www.linkedin.com/in/hitan-k-59425527b
+
 💻 GitHub: https://github.com/Hitan547
 
 ⭐ *Always open to collaborations in AI, NLP systems and backend engineering.*
