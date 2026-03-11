@@ -12,9 +12,9 @@ I enjoy taking ideas from **concept → model → system → deployment → user
 
 🧠 Natural Language Processing — Emotion AI, Multi-label classification, Transformers
 
-⚡ Backend Development — FastAPI, REST APIs, AI system architecture
+⚙️ Backend Development — FastAPI, REST APIs, AI system architecture
 
-⚙️ Deployment — Streamlit Cloud, Docker (learning), real-time inference systems
+📦 Deployment — Streamlit Cloud, Docker (learning), real-time inference systems
 
 📊 Machine Learning — Model training, evaluation, data pipelines
 
