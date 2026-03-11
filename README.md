@@ -1,6 +1,7 @@
 # Hi 👋 I'm Hitan K
 
 **AI and Software Engineer | Machine Learning • NLP • Backend Systems • Deployment**
+
 💡 I design and develop intelligent software systems that integrate machine learning models with scalable backend infrastructure for real-world applications.
 
 I enjoy taking ideas from **concept → model → system → deployment → user impact.**
@@ -10,9 +11,13 @@ I enjoy taking ideas from **concept → model → system → deployment → user
 ## 🔍 What I Do
 
 🧠 Natural Language Processing — Emotion AI, Multi-label classification, Transformers
+
 ⚡ Backend Development — FastAPI, REST APIs, AI system architecture
+
 🚀 Deployment — Streamlit Cloud, Docker (learning), real-time inference systems
+
 📊 Machine Learning — Model training, evaluation, data pipelines
+
 🧩 Problem Solving — Data Structures & Algorithms
 
 ---
