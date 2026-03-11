@@ -8,7 +8,7 @@ I enjoy taking ideas from **concept → model → system → deployment → user
 
 ---
 
-## 🔍 What I Do
+##  What I Do
 
 🧠 Natural Language Processing — Emotion AI, Multi-label classification, Transformers
 
@@ -22,7 +22,7 @@ I enjoy taking ideas from **concept → model → system → deployment → user
 
 ---
 
-## 🚀 Featured AI Projects
+##  Featured AI Projects
 
 ### 🧠 PsySense — Multi-Label Emotion Classification System
 
@@ -69,7 +69,7 @@ I enjoy taking ideas from **concept → model → system → deployment → user
 
 ## 🔬 Research Experience
 
-### 🧠 Emotion-Aware NLP Data Augmentation Framework
+###  Emotion-Aware NLP Data Augmentation Framework
 
 * Worked as **Student Researcher** on multi-label emotion classification problems
 * Designed **LLM-based synthetic data generation pipeline** producing 100K+ augmented samples
@@ -84,7 +84,7 @@ I enjoy taking ideas from **concept → model → system → deployment → user
 
 ---
 
-## 🧠 Skills
+##  Skills
 
 **Languages:** Python, JavaScript, C
 
