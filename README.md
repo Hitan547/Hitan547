@@ -14,7 +14,7 @@ I enjoy taking ideas from **concept → model → system → deployment → user
 
 ⚡ Backend Development — FastAPI, REST APIs, AI system architecture
 
-🚀 Deployment — Streamlit Cloud, Docker (learning), real-time inference systems
+⚙️ Deployment — Streamlit Cloud, Docker (learning), real-time inference systems
 
 📊 Machine Learning — Model training, evaluation, data pipelines
 
