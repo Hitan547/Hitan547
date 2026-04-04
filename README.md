@@ -1,119 +1,126 @@
-# Hi 👋 I'm Hitan K
+<div align="center">
 
-**AI and Software Engineer | Machine Learning • NLP • Backend Systems • Deployment**
+# Hey, I'm Hitan K 👋
 
-💡 I design and develop intelligent software systems that integrate machine learning models with scalable backend infrastructure for real-world applications.
+**Final-year CS undergrad (AI specialisation) · Bengaluru, India**
 
-I enjoy taking ideas from **concept → model → system → deployment → user impact.**
+I build production AI systems — not just notebooks. Multimodal pipelines, RAG backends, full-stack AI apps with real users.
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/hitan-k)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/Hitan2004)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:hitank2004@gmail.com)
 
-##  What I Do
-
-🧠 Natural Language Processing — Emotion AI, Multi-label classification, Transformers
-
-⚙️ Backend Development — FastAPI, REST APIs, AI system architecture
-
-📦 Deployment — Streamlit Cloud, Docker (learning), real-time inference systems
-
-📊 Machine Learning — Model training, evaluation, data pipelines
-
-🧩 Problem Solving — Data Structures & Algorithms
+</div>
 
 ---
 
-##  Featured AI Projects
+## About me
 
-### 🧠 PsySense — Multi-Label Emotion Classification System
-
-🔗 Live: https://psysense-emotion-ai-75rqc6axets9shtwledjui.streamlit.app/
-
-* Built DistilBERT-based emotion classification pipeline
-* Supports **mixed human emotions detection from text**
-* Developed real-time inference API + interactive Streamlit UI
-* Applied transformer fine-tuning and evaluation workflows
+- 🏗️ Currently building **PsySense** — a multimodal AI interview platform deployed live at a Bengaluru startup
+- 📄 Co-authored a **Springer-published paper** (WCSC 2026) on LLM-based emotion data augmentation
+- 🤗 Published a production model on HuggingFace: [`Hitan2004/psysense-emotion-ai`](https://huggingface.co/Hitan2004/psysense-emotion-ai) — 28-label DistilBERT emotion classifier actively serving a REST API
+- 🎯 Strongest in: **GenAI / LLM integration · NLP / HuggingFace · FastAPI backend engineering · end-to-end deployment**
+- 🎓 B.E. Computer Science — AI Specialisation · CGPA 7.9 · Dayananda Sagar Academy of Technology and Management
 
 ---
 
-### 📄 Brain Buddy — AI PDF Learning Assistant
+## Projects
 
-🔗 Live: https://brainbuddy.vercel.app
+### 🧠 PsySense — Multimodal AI Behavioral Interview Assessment Platform
+> *FastAPI · Groq · LLaMA 3.1 · DistilBERT · Whisper · WebRTC · librosa · Docker · AWS ECS*
 
-* Conversational question answering from PDFs
-* Auto quiz generation + podcast-style audio summaries
-* Full-stack AI system for interactive learning experience
+A **5-microservice production backend** deployed live at a startup. Evaluates candidates through voice, video, and language — all in real time.
 
----
-
-### 🧠 AI-Driven Exam Anxiety Reduction System
-
-🔗 Live: https://examanxietyai-esu5jbxkjlxrcbsjgsgoeu.streamlit.app/
-
-* Adaptive AI learning analytics system to reduce exam anxiety
-* Generates **personalized daily micro-goals**
-* Calculates **confidence-based exam readiness score (0–100)**
-* Tracks **study consistency using behavioural signals**
-* Detects stress levels and provides empathetic encouragement
-* Built interactive real-time Streamlit dashboard
-
-**Tech:** Python, Pandas, Streamlit, Adaptive AI Logic
+- **Whisper ASR + WebRTC video + librosa prosody** → unified weighted score (cognitive 50%, speech 30%, visual 20%)
+- Fine-tuned DistilBERT for 28-label emotion classification, serving predictions via REST API
+- Discriminative gap validated: weak candidates ~48/100 · strong candidates ~76/100 **(28-point gap)**
+- Auto-generates PDF assessment reports · SQLite + SQLAlchemy persistence · containerised with Docker · migrating to AWS ECS
 
 ---
 
-### ☁️ Cloud Billing API Simulator
+### 📚 Brain Buddy — AI-Powered PDF Learning Platform
+> *TypeScript · React · Vite · Node.js · Express · MongoDB · Gemini API · Firebase · Vercel*
 
-* Developed FastAPI backend to simulate cloud usage billing analytics
-* Designed cost aggregation logic and REST endpoints
+**Live at [brainbuddy.vercel.app](https://brainbuddy.vercel.app)** — real users, real deployments.
 
----
+Transforms static PDFs into interactive learning experiences via:
+- Context-aware conversational Q&A (RAG over chunked PDF content using Gemini API)
+- Podcast-style audio summaries
+- Auto-generated quizzes
 
-## 🔬 Research Experience
-
-###  Emotion-Aware NLP Data Augmentation Framework
-
-* Worked as **Student Researcher** on multi-label emotion classification problems
-* Designed **LLM-based synthetic data generation pipeline** producing 100K+ augmented samples
-* Improved minority-class representation by **2×–40×**
-* Contributed to **RoBERTa fine-tuning and Bayesian hyperparameter optimization**
-* Achieved macro-F1 improvements across benchmarks:
-
-  * GoEmotions: **0.51 → 0.83**
-  * TweetEval: **0.71 → 0.79**
-  * DAIR: **0.90 → 0.97**
-* Co-authored research paper submitted to **WCSC 2026**
+Node.js/Express REST backend · MongoDB persistence · Firebase auth · ImageKit + Cloudinary CDN · **GitHub Actions CI/CD — zero-downtime on every push**
 
 ---
 
-##  Skills
+### 🛡️ SentinelNet — Real-Time AI Network Intrusion Detection System
+> *Python · Flask · scikit-learn · Docker · Vanilla JS · HuggingFace Spaces*
 
-**Languages:** Python, JavaScript, C
+**Live on [HuggingFace Spaces](https://huggingface.co/Hitan2004)**
 
-**Machine Learning:** PyTorch, Scikit-learn, Transformers
-
-**NLP:** BERT, DistilBERT, RoBERTa, Tokenization, Text Classification
-
-**Backend:** FastAPI, Node.js, REST APIs
-
-**Databases:** MongoDB, SQL
-
-**Tools:** Git, GitHub, Linux, Docker (Learning), VS Code
+- Flask REST API serving a **Random Forest classifier for 5-class threat detection** (DoS, Probe, R2L, U2R, normal) on NSL-KDD 41-feature data
+- Full preprocessing pipeline serialised with joblib (OHE · frequency encoding · log transforms · standard scaling)
+- Real-time JS dashboard: live threat timeline · activity heatmap · confidence panels · batch CSV analysis
+- Reports exportable as CSV / PDF / JSON · **Dockerised**
 
 ---
 
-## 🎓 Education
+## Research
 
-B.E Computer Science (Artificial Intelligence)
-Dayananda Sagar Academy of Technology and Management
-2022 — 2026
+### 📑 Multi-Dataset Conditional Text Generation for Emotion Augmentation
+> *Published · WCSC 2026 · Springer*
+
+- Designed an **LLM-based synthetic data augmentation pipeline** generating **100K+ training samples**
+- Improved minority emotion-class representation by **2×–40×** across multiple NLP benchmarks
+- **RoBERTa fine-tuning with Bayesian hyperparameter search:**
+
+| Dataset | Before | After |
+|---|---|---|
+| GoEmotions | macro-F1 0.51 | **0.83** |
+| TweetEval | macro-F1 0.71 | **0.79** |
+| DAIR | macro-F1 0.90 | **0.97** |
 
 ---
 
-## 📫 Connect With Me
+## Tech stack
 
-📧 [hitank2004@gmail.com](mailto:hitank2004@gmail.com)
+```text
+GenAI & LLMs     LangChain · LangGraph · RAG · Corrective RAG · Prompt Engineering
+                 Groq · Gemini API · OpenAI · LLaMA · Fine-tuning
 
-💼 LinkedIn: https://www.linkedin.com/in/hitan-k-59425527b
+NLP              HuggingFace Transformers · DistilBERT · RoBERTa · Whisper
+                 Sentence Transformers · Text Classification · NER · Summarisation
 
-💻 GitHub: https://github.com/Hitan547
+Vector DBs       ChromaDB · FAISS  (familiar: Pinecone · Weaviate)
 
-⭐ *Always open to collaborations in AI, NLP systems and backend engineering.*
+Computer Vision  OpenCV · WebRTC video · PIL  (familiar: CLIP · YOLOv8 · ViT)
+
+Backend          FastAPI · Flask · Node.js · Express · REST APIs · Uvicorn · Async
+
+Frontend         React · Vite · Streamlit · Vanilla JS · TypeScript
+
+MLOps            Docker · GitHub Actions CI/CD · Git · Linux · HuggingFace Hub
+
+Cloud            AWS ECS (active) · Vercel · Firebase
+
+Databases        MongoDB · SQLite · SQL · SQLAlchemy
+
+ML/DL            PyTorch · scikit-learn · librosa · pandas · NumPy
+```
+
+---
+
+## Certifications
+
+- 🎓 Natural Language Processing in TensorFlow — **DeepLearning.AI**
+- 🎓 Artificial Intelligence Fundamentals — **IBM SkillsBuild**
+- 🎓 Machine Learning for All — **University of London**
+
+---
+
+<div align="center">
+
+*"Ship first, iterate always."*
+
+![Profile views](https://komarev.com/ghpvc/?username=Hitan547&color=185FA5&style=flat)
+
+</div>
