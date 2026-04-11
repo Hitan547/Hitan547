@@ -196,7 +196,7 @@ Interactive learning experience for static PDFs:
 
 ### 🎤 PsySense — Multimodal AI Behavioral Interview Assessment Platform
 
-Evaluates candidates through voice, video, and language (deployed live at startup):
+Evaluates candidates through voice, video, and language (deployment Ongoing live at startup):
 - Whisper ASR + WebRTC video + librosa prosody
 - Fine-tuned DistilBERT (28-label emotion classification)
 - Weighted scoring: cognitive 50% + speech 30% + visual 20%
@@ -290,7 +290,7 @@ Repo: [ github.com/Hitan547/-project-conditional-text-generation-and-augmentatio
 ## 🎓 Education
 
 **Bachelor of Engineering — Computer Science (AI Specialization)**  
-Dayananda Sagar Academy of Technology and Management (DAYTM)  
+Dayananda Sagar Academy of Technology and Management (DSATM)  
 **CGPA:** 7.9/10 | **Graduation:** May 2025
 
 **Certifications:**
@@ -400,7 +400,7 @@ I'm actively looking for opportunities to:
 | [Agentic Corrective RAG](https://github.com/Hitan547/agentic-corrective-rag) | ⭐⭐⭐ | RAG Agent | [API](https://hitan2004-agentic-corrective-rag.hf.space) |
 | [SentinelNet](https://github.com/Hitan547/sentinelnet) | ⭐⭐⭐ | ML System | [Live](https://huggingface.co/spaces/Hitan2004/sentinelnet) |
 | [Brain Buddy](https://github.com/Hitan547/brain-buddy) | ⭐⭐ | Full-Stack | [App](https://brainbuddy.vercel.app) |
-| [PsySense](https://github.com/Hitan547/psysense) | ⭐⭐⭐ | Multimodal AI | Deployed |
+| [PsySense](https://github.com/Hitan547/psysense) | ⭐⭐⭐ | Multimodal AI | Ongoing |
 
 ---
 
