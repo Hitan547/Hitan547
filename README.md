@@ -229,7 +229,7 @@ Designed an LLM-based synthetic data augmentation pipeline generating 100K+ trai
 | TweetEval | macro-F1 0.71 | 0.79 | +11% |
 | DAIR | macro-F1 0.90 | 0.97 | +8% |
 
-Repo: [ github.com/Hitan547/sentinelnet](https://github.com/Hitan547/-project-conditional-text-generation-and-augmentation-for-sentiment-classification)
+Repo: [ github.com/Hitan547/-project-conditional-text-generation-and-augmentation-for-sentiment-classification](https://github.com/Hitan547/-project-conditional-text-generation-and-augmentation-for-sentiment-classification)
 ---
 
 ## 💻 Tech Stack
