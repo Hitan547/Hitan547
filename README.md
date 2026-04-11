@@ -26,7 +26,7 @@ I'm a final-year CS undergraduate specializing in AI who builds **production sys
 - **Systems Engineering** — Docker, CI/CD, distributed architectures
 - **Research** — Published work on LLM-based synthetic data augmentation
 
-**Current:** Graduating May 2025 | **CGPA:** 7.9/10 | **Education:** DAYTM, Bengaluru
+**Current:** Graduating May 2025 | **CGPA:** 7.9/10 | **Education:** DSATM, Bengaluru
 
 ---
 
