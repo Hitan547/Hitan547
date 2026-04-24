@@ -9,7 +9,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hitan%20K-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/hitan-k)
 [![GitHub](https://img.shields.io/badge/GitHub-Hitan547-black?style=for-the-badge&logo=github)](https://github.com/Hitan547)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Hitan2004-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/Hitan2004)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge)](mailto:hitan.k@outlook.com)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge)](mailto:hitank2004@gmail.com)
 
 *"Ship first, iterate always. Real systems, real users, real impact."*
 
