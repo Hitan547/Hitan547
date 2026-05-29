@@ -76,15 +76,24 @@
 
 ---
 
-## Featured Projects
+## Best AI/ML Projects
 
-| Project | What It Does | Stack |
+| Rank | Project | Why It Stands Out | Stack |
+|---|---|---|---|
+| 1 | [Talentryx AI / PsySense Interview Platform](https://github.com/Hitan547/ai-behavioral-interviewer-proctoring) | Full SaaS-style AI hiring platform with recruiter and candidate flows, AI scoring, proctoring signals, serverless AWS architecture, tests, CI, and deployment docs. | Python, TypeScript, React, FastAPI/Lambda, DynamoDB, Cognito, S3, Step Functions, AWS SAM |
+| 2 | [Agentic Corrective RAG](https://github.com/Hitan547/agentic-corrective-rag) | Production RAG system with hybrid retrieval, reranking, LangGraph validation loops, RAGAS evaluation, tests, Docker, CI/CD, and Hugging Face deployment. | Python, FastAPI, LangGraph, FAISS, BM25, Groq, pytest, Docker |
+| 3 | [SentinelNet](https://github.com/Hitan547/sentinelnet) | Real-time network intrusion detection system with NSL-KDD preprocessing, Random Forest inference, live dashboard, CSV analysis, Docker, and CI/CD. | Python, Flask, scikit-learn, pandas, Vanilla JS, Canvas API, Docker |
+| 4 | [BIS Standards RAG](https://github.com/Hitan547/BIS-Standards-RAG) | Domain-specific standards recommendation engine using parsing, hybrid retrieval, query expansion, confidence filtering, reranking, and corrective RAG. | Python, LangGraph, BGE embeddings, Cross-Encoder, BM25, FAISS |
+| 5 | [Emotion Augmentation Research](https://github.com/Hitan547/-project-conditional-text-generation-and-augmentation-for-sentiment-classification) | Springer LNCS research project using conditional text generation, RoBERTa classification, Optuna tuning, and multi-dataset macro-F1 evaluation. | PyTorch, Hugging Face, SmolLM, RoBERTa, Optuna, Jupyter |
+| 6 | [PsySense Emotion AI](https://github.com/Hitan547/psysense-emotion-ai) | DistilBERT multi-label emotion classifier with API, Streamlit app, Docker/Kubernetes assets, monitoring, tests, and Hugging Face model hosting. | Python, DistilBERT, Transformers, FastAPI, Streamlit, Docker, Kubernetes |
+
+## Selected Supporting Projects
+
+| Project | Focus | Stack |
 |---|---|---|
-| [Agentic Corrective RAG](https://github.com/Hitan547/agentic-corrective-rag) | Document Q&A system with hybrid retrieval, reranking, validation, and retry loops to reduce hallucinations. | Python, FastAPI, LangGraph, FAISS, BM25, Groq, Docker |
-| [SentinelNet](https://github.com/Hitan547/sentinelnet) | Real-time network intrusion detection dashboard with batch CSV analysis and exportable reports. | Python, Flask, scikit-learn, pandas, Vanilla JS, Canvas API |
-| [Brain Buddy](https://brainbuddy.vercel.app) | AI-powered PDF learning platform with Q&A, podcast-style summaries, and quizzes. | TypeScript, React, Vite, Node.js, MongoDB, Gemini API |
-| [PsySense](https://github.com/Hitan547/ai-behavioral-interviewer-proctoring) | Multimodal behavioral interview assessment using speech, text, and video signals. | FastAPI, Whisper, DistilBERT, WebRTC, OpenCV, Docker |
-| [Trader Sentiment Analysis](https://github.com/Hitan547/trader-sentiment-analysis) | Data analysis of trader performance vs market sentiment with segmentation and strategy insights. | Python, pandas, Jupyter, statistics, visualization |
+| [Brain Buddy AI](https://github.com/Hitan547/brain-buddy-ai) | AI PDF learning assistant with conversational Q&A, audio summaries, quizzes, and a live Vercel demo. | TypeScript, React, Vite, Node.js, Express, MongoDB, Gemini API |
+| [Trader Sentiment Analysis](https://github.com/Hitan547/trader-sentiment-analysis) | Trader behavior analysis against market sentiment using feature engineering, statistical testing, and segmentation. | Python, pandas, Jupyter, statistics, visualization |
+| [Qyrus QA Prototype](https://github.com/Hitan547/qyrus-qa-prototype) | Interactive QA summary report with release decision support, filtering, and multi-suite aggregation. | HTML, CSS, JavaScript |
 
 ---
 
