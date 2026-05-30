@@ -7,6 +7,16 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/Hitan547">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2600&pause=900&color=00D9FF&center=true&vCenter=true&width=950&lines=Open+to+AI%2FML+Engineer+%7C+Applied+AI+%7C+GenAI+Engineer+roles;Building+RAG%2C+LLM%2C+NLP%2C+ML+and+MLOps+systems;Python+%2B+FastAPI+%2B+LangGraph+%2B+Docker+%2B+AWS;Turning+models+into+deployed+products" alt="Open to AI/ML, Applied AI, GenAI, RAG, NLP, ML and MLOps roles" />
+  </a>
+</p>
+
+<p align="center">
+  <strong>Open to AI/ML Engineer, Applied AI Engineer, GenAI/LLM Engineer, NLP Engineer, ML Engineer, and MLOps-focused roles.</strong>
+</p>
+
+<p align="center">
   <a href="https://linkedin.com/in/hitan-k"><img src="https://img.shields.io/badge/LinkedIn-Hitan%20K-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://huggingface.co/Hitan2004"><img src="https://img.shields.io/badge/Hugging%20Face-Hitan2004-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
   <a href="mailto:hitan.k@outlook.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
