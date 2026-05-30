@@ -1,11 +1,9 @@
 <h1 align="center">Hi, I'm Hitan K</h1>
 
-<h3 align="center">AI Systems Engineer | GenAI, RAG, ML Pipelines & Full-Stack AI Products</h3>
+<h3 align="center">Applied AI/ML Engineer | LLM/RAG Systems | Production ML & MLOps</h3>
 
 <p align="center">
-  <a href="https://github.com/Hitan547">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2600&pause=900&color=00D9FF&center=true&vCenter=true&width=850&lines=Building+production-grade+AI+systems;LLM+apps%2C+RAG+agents+and+ML+dashboards;Ship+first%2C+iterate+always" alt="Typing SVG" />
-  </a>
+  Building AI products that move from model logic to APIs, dashboards, evaluation, CI/CD, and cloud deployment.
 </p>
 
 <p align="center">
@@ -31,7 +29,7 @@
 | GenAI & RAG Systems | Corrective RAG with hybrid retrieval, reranking, validation, source grounding, and retry loops |
 | Applied Machine Learning | Intrusion detection, emotion classification, trader sentiment analysis, and feature-engineered ML pipelines |
 | Multimodal AI | Interview assessment using text, speech, prosody, and video signals |
-| Production Engineering | FastAPI/Flask services, Docker, CI/CD, tests, Hugging Face Spaces, Vercel, and AWS ECS |
+| Production Engineering | FastAPI/Flask services, Docker, CI/CD, tests, Hugging Face Spaces, Vercel, and AWS serverless |
 
 ---
 
@@ -80,20 +78,22 @@
 
 | Rank | Project | Why It Stands Out | Stack |
 |---|---|---|---|
-| 1 | [Talentryx AI / PsySense Interview Platform](https://github.com/Hitan547/ai-behavioral-interviewer-proctoring) | Full SaaS-style AI hiring platform with recruiter and candidate flows, AI scoring, proctoring signals, serverless AWS architecture, tests, CI, and deployment docs. | Python, TypeScript, React, FastAPI/Lambda, DynamoDB, Cognito, S3, Step Functions, AWS SAM |
+| 1 | [Talentryx AI / PsySense Interview Platform](https://github.com/Hitan547/ai-behavioral-interviewer-proctoring) | Full SaaS-style AI hiring platform with recruiter and candidate flows, AI scoring, proctoring signals, serverless AWS architecture, tests, CI, and deployment docs. | Python, TypeScript, React, AWS Lambda, DynamoDB, Cognito, S3, Step Functions, AWS SAM |
 | 2 | [Agentic Corrective RAG](https://github.com/Hitan547/agentic-corrective-rag) | Production RAG system with hybrid retrieval, reranking, LangGraph validation loops, RAGAS evaluation, tests, Docker, CI/CD, and Hugging Face deployment. | Python, FastAPI, LangGraph, FAISS, BM25, Groq, pytest, Docker |
 | 3 | [SentinelNet](https://github.com/Hitan547/sentinelnet) | Real-time network intrusion detection system with NSL-KDD preprocessing, Random Forest inference, live dashboard, CSV analysis, Docker, and CI/CD. | Python, Flask, scikit-learn, pandas, Vanilla JS, Canvas API, Docker |
 | 4 | [BIS Standards RAG](https://github.com/Hitan547/BIS-Standards-RAG) | Domain-specific standards recommendation engine using parsing, hybrid retrieval, query expansion, confidence filtering, reranking, and corrective RAG. | Python, LangGraph, BGE embeddings, Cross-Encoder, BM25, FAISS |
 | 5 | [Emotion Augmentation Research](https://github.com/Hitan547/-project-conditional-text-generation-and-augmentation-for-sentiment-classification) | Springer LNCS research project using conditional text generation, RoBERTa classification, Optuna tuning, and multi-dataset macro-F1 evaluation. | PyTorch, Hugging Face, SmolLM, RoBERTa, Optuna, Jupyter |
 | 6 | [PsySense Emotion AI](https://github.com/Hitan547/psysense-emotion-ai) | DistilBERT multi-label emotion classifier with API, Streamlit app, Docker/Kubernetes assets, monitoring, tests, and Hugging Face model hosting. | Python, DistilBERT, Transformers, FastAPI, Streamlit, Docker, Kubernetes |
 
-## Selected Supporting Projects
+<details>
+<summary>Additional product and data work</summary>
 
 | Project | Focus | Stack |
 |---|---|---|
 | [Brain Buddy AI](https://github.com/Hitan547/brain-buddy-ai) | AI PDF learning assistant with conversational Q&A, audio summaries, quizzes, and a live Vercel demo. | TypeScript, React, Vite, Node.js, Express, MongoDB, Gemini API |
 | [Trader Sentiment Analysis](https://github.com/Hitan547/trader-sentiment-analysis) | Trader behavior analysis against market sentiment using feature engineering, statistical testing, and segmentation. | Python, pandas, Jupyter, statistics, visualization |
-| [Qyrus QA Prototype](https://github.com/Hitan547/qyrus-qa-prototype) | Interactive QA summary report with release decision support, filtering, and multi-suite aggregation. | HTML, CSS, JavaScript |
+
+</details>
 
 ---
 
@@ -113,19 +113,6 @@
   <img src="https://img.shields.io/badge/DeepLearning.AI-NLP%20in%20TensorFlow-0056D2?style=for-the-badge" alt="DeepLearning.AI NLP in TensorFlow" />
   <img src="https://img.shields.io/badge/IBM-AI%20Fundamentals-052FAD?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM AI Fundamentals" />
   <img src="https://img.shields.io/badge/University%20of%20London-Machine%20Learning%20for%20All-A51C30?style=for-the-badge" alt="Machine Learning for All" />
-</p>
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Hitan547&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Hitan's GitHub stats" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=Hitan547&theme=tokyonight&hide_border=true" alt="Hitan's GitHub streak" />
-</p>
-
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hitan547&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
 </p>
 
 ---
