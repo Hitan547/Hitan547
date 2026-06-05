@@ -189,7 +189,12 @@ AI-powered PDF learning assistant with conversational Q&A, audio summaries, and 
 </table>
 
 ---
+## Internship / Collaboration Work
 
+### [AI Behavioral Interviewer with Proctoring](https://github.com/anbunathanr/ai-behavioral-interviewer-proctoring)
+Contributed to an AI behavioral interview and proctoring platform during internship/collaboration work, focused on candidate assessment workflows, AI-driven evaluation, and integrity/proctoring signals.
+
+`Python` `FastAPI` `AI Assessment` `Proctoring` `NLP` `Computer Vision`
 ## Technical Stack
 
 ### Languages
