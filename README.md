@@ -191,10 +191,29 @@ AI-powered PDF learning assistant with conversational Q&A, audio summaries, and 
 ---
 ## Internship / Collaboration Work
 
-### [AI Behavioral Interviewer with Proctoring](https://github.com/anbunathanr/ai-behavioral-interviewer-proctoring)
-Contributed to an AI behavioral interview and proctoring platform during internship/collaboration work, focused on candidate assessment workflows, AI-driven evaluation, and integrity/proctoring signals.
+<table>
+<tr>
+<td width="100%" valign="top">
 
-`Python` `FastAPI` `AI Assessment` `Proctoring` `NLP` `Computer Vision`
+### [Talentryx AI — AI Behavioral Interview & Proctoring SaaS](https://github.com/anbunathanr/ai-behavioral-interviewer-proctoring)
+
+**Internship / collaboration project focused on AI-assisted hiring, candidate assessment, and serverless SaaS architecture.**
+
+Worked on a full-stack AI behavioral interview platform with recruiter workflows, resume/JD intelligence, candidate interview flow, AI scoring, proctoring signals, scorecards, reports, and AWS serverless deployment.
+
+<p>
+  <img src="https://img.shields.io/badge/Role-Internship%20Project-2563EB?style=for-the-badge" alt="Internship Project" />
+  <img src="https://img.shields.io/badge/Product-AI%20Hiring%20SaaS-0F766E?style=for-the-badge" alt="AI Hiring SaaS" />
+  <img src="https://img.shields.io/badge/Architecture-AWS%20Serverless-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Serverless" />
+</p>
+
+`React` `TypeScript` `Python` `AWS Lambda` `DynamoDB` `Cognito` `S3` `Step Functions` `Groq` `n8n` `pytest` `CI/CD`
+
+[![View Repository](https://img.shields.io/badge/View-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anbunathanr/ai-behavioral-interviewer-proctoring)
+
+</td>
+</tr>
+</table>
 ## Technical Stack
 
 ### Languages
