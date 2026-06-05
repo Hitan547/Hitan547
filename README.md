@@ -6,7 +6,7 @@
 
 <p>
   <a href="https://github.com/Hitan547">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=Building+production+RAG+systems+with+self-correction+%26+hallucination+control;3+deployed+RAG+pipelines+%C2%B7+Published+NLP+research+%C2%B7+Multimodal+AI+systems" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&repeat=true&width=620&height=32&lines=Building+reliable+RAG+systems;LLM+apps+with+evaluation+guardrails;Deployed+AI+products+with+Python+and+AWS;Open+to+AI%2FML+and+GenAI+roles" alt="Building reliable RAG systems, LLM apps, and deployed AI products" />
   </a>
 </p>
 
@@ -22,12 +22,12 @@
 
 ---
 
-## 🧑‍💻 About
+## About
 
 CS graduate with an AI specialization who builds **deployed AI systems**, not just notebooks.
 
-- **3 production RAG pipelines** — hybrid retrieval, cross-encoder reranking, LangGraph self-correction, hallucination guardrails
-- **Published NLP research** — Springer LNCS on LLM-based synthetic data augmentation for emotion classification
+- **4 deployed RAG systems** — hybrid retrieval, reranking, agentic workflows, evaluation, and hallucination guardrails
+- **Research paper publishing** — Springer LNCS paper on LLM-based synthetic data augmentation for emotion classification
 - **Multimodal AI products** — interview assessment using text, speech, prosody, and video signals
 - **Full production stack** — FastAPI/Flask APIs, Docker, CI/CD, pytest, Hugging Face Spaces, Vercel, AWS serverless
 
@@ -37,97 +37,104 @@ CS graduate with an AI specialization who builds **deployed AI systems**, not ju
 
 ---
 
-## 🔍 RAG Systems — Retrieval-Augmented Generation
+## RAG Systems — Retrieval-Augmented Generation
 
-> **Core specialization.** Each project demonstrates a progressively more advanced retrieval + generation + validation architecture.
+> **Core specialization.** Deployed RAG, agentic retrieval, validation loops, and source-grounded LLM systems.
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 ### [Agentic Corrective RAG](https://github.com/Hitan547/agentic-corrective-rag)
 **Self-correcting document QA**
 
-Production RAG with agentic self-correction loop that detects hallucinations and retries with refined retrieval.
+Production-style RAG with retrieval, reranking, answer validation, and retry loops to reduce hallucination.
 
-`ChromaDB` `BM25` `RRF Fusion` `Cross-Encoder` `LangGraph` `LLaMA 3.3 70B` `Groq` `FastAPI` `MCP Tools` `RAGAS Eval` `Docker` `CI/CD`
+`BM25` `RRF` `Cross-Encoder` `LangGraph` `LLaMA` `FastAPI` `Docker` `RAGAS`
 
 [![Demo](https://img.shields.io/badge/Live-HF_Space-FF9D00?style=flat-square&logo=huggingface)](https://huggingface.co/spaces/Hitan2004/agentic-corrective-rag)
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 ### [BIS Standards RAG](https://github.com/Hitan547/BIS-Standards-RAG)
-**Standards code recommendation engine**
+**Standards code recommendation**
 
-Maps building material descriptions to BIS/IS codes. Built for the BIS × SS Hackathon 2026.
+Maps building material queries to BIS/IS codes using hybrid retrieval, query expansion, reranking, and confidence filtering.
 
-`FAISS` `BGE Embeddings` `BM25` `RRF Fusion` `Query Expansion` `Cross-Encoder` `LangGraph` `LLaMA 3.3 70B` `Streamlit`
+`FAISS` `BGE` `BM25` `RRF` `Cross-Encoder` `LangGraph` `Streamlit`
 
-**100% Hit Rate @3 · 0.95 MRR @5 · 3.46s latency**
+**100% Hit Rate @3 · 0.95 MRR @5**
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
+
+### [Local Pilot](https://github.com/Hitan547/local-pilot)
+**Local-first AI assistant**
+
+Local RAG/assistant prototype focused on private document workflows, local execution, and practical AI automation.
+
+`Python` `RAG` `Local AI` `Document QA` `Automation`
+
+</td>
+<td width="25%" valign="top">
 
 ### [Proanalyst RAG Bot](https://github.com/Hitan547/Proanalyst_Hitan_k_rag)
 **API documentation support bot**
 
-Source-grounded Upwork API assistant with deterministic guardrails and hallucination fallback.
+Source-grounded API assistant with guardrails, fallback behavior, and traceable answers.
 
-`ChromaDB` `MiniLM` `DeepInfra Meta-LLaMA` `Streamlit` `Guardrails` `Chunk Traceability`
+`ChromaDB` `MiniLM` `Streamlit` `Guardrails` `Traceability`
 
 [![Demo](https://img.shields.io/badge/Live-Streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://proanalysthitank-p9xvkrnqrj9ahyey5xmh3a.streamlit.app/)
-**36/36 eval pass · Source traceability**
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>📊 RAG Architecture Comparison</b></summary>
+<summary><b>RAG Architecture Comparison</b></summary>
 <br/>
 
-| Capability | Agentic Corrective RAG | BIS Standards RAG | Proanalyst RAG |
-|:---|:---:|:---:|:---:|
-| **Retrieval** | ChromaDB + BM25 + RRF | FAISS + BM25 + RRF | ChromaDB semantic |
-| **Reranking** | Cross-Encoder | Cross-Encoder | Lexical rerank |
-| **LLM** | LLaMA 3.3 70B (Groq) | LLaMA 3.3 70B (Groq) | Meta-LLaMA (DeepInfra) |
-| **Self-Correction** | ✅ LangGraph retry loop | ✅ LangGraph corrective agent | ✅ Hallucination guardrails |
-| **Evaluation** | RAGAS + pytest | Hit Rate + MRR | 36-question eval set |
-| **Deployment** | HF Space + Docker + CI | Streamlit | Streamlit Cloud |
-| **API** | FastAPI + SSE streaming | — | — |
-| **Sessions** | SQLite memory | — | — |
-| **MCP Tools** | ✅ | — | — |
+| Capability | Agentic Corrective RAG | BIS Standards RAG | Local Pilot | Proanalyst RAG |
+|:---|:---:|:---:|:---:|:---:|
+| **Retrieval** | BM25 + RRF | FAISS + BM25 + RRF | Local document retrieval | ChromaDB semantic |
+| **Reranking** | Cross-Encoder | Cross-Encoder | Project-specific | Lexical rerank |
+| **Agent Workflow** | LangGraph retry loop | LangGraph corrective agent | Local assistant flow | Guardrail fallback |
+| **Evaluation** | RAGAS + pytest | Hit Rate + MRR | Local validation | 36-question eval set |
+| **Deployment** | HF Space + Docker | Streamlit | Local-first | Streamlit Cloud |
 
 </details>
 
 ---
 
-## 🧠 NLP, NLU & Research
+## NLP, NLU & Research
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### [Conditional Text Generation for Emotion Classification](https://github.com/Hitan547/-project-conditional-text-generation-and-augmentation-for-sentiment-classification)
-📄 **Published — Springer LNCS, WCSC 2026**
+**Research paper publishing — Springer LNCS, WCSC 2026**
 
-Novel approach using LLM-based conditional text generation to synthesize minority-class samples, solving class imbalance in emotion datasets. Generated **100K+ synthetic training samples**.
+LLM-based conditional text generation pipeline for synthesizing minority-class emotion samples and improving class balance across emotion datasets.
+
+Generated **100K+ synthetic training samples** and evaluated across GoEmotions, TweetEval, and DAIR.
 
 `PyTorch` `RoBERTa` `SmolLM` `Optuna` `GoEmotions` `TweetEval` `DAIR`
 
 </td>
 <td width="50%" valign="top">
 
-### [GoEmotions Emotion Classifier](https://github.com/Hitan547/GoEmotions_Emotion_Classifier)
-Transformer-based multi-label emotion classification using DistilBERT trained on GoEmotions to detect **overlapping human emotions** in text.
-
-`DistilBERT` `Transformers` `Multi-Label Classification` `Jupyter`
-
 ### [PsySense Emotion AI](https://github.com/Hitan547/psysense-emotion-ai)
-DistilBERT emotion classifier with production assets — FastAPI, Streamlit UI, Docker/K8s manifests, monitoring, and HF model hosting.
+DistilBERT emotion classifier with production assets: FastAPI, Streamlit UI, Docker/K8s manifests, monitoring, and Hugging Face model hosting.
 
-`DistilBERT` `FastAPI` `Streamlit` `Docker` `Kubernetes`
+`DistilBERT` `Transformers` `FastAPI` `Streamlit` `Docker` `Kubernetes`
+
+### GoEmotions Emotion Classifier
+Transformer-based multi-label emotion classification using DistilBERT trained on GoEmotions to detect overlapping human emotions in text.
+
+`DistilBERT` `Multi-Label Classification` `Jupyter`
 
 </td>
 </tr>
@@ -135,7 +142,7 @@ DistilBERT emotion classifier with production assets — FastAPI, Streamlit UI, 
 
 ---
 
-## 🛡️ Applied ML & Multimodal AI
+## Applied ML & Multimodal AI
 
 <table>
 <tr>
@@ -146,7 +153,8 @@ Full SaaS-style AI hiring platform with recruiter and candidate flows, AI scorin
 
 `Python` `TypeScript` `React` `AWS Lambda` `DynamoDB` `Cognito` `S3` `Step Functions`
 
-Also: [Streamlit prototype](https://github.com/Hitan547/talentryx-streamlit-prototype) [![Demo](https://img.shields.io/badge/Live-Streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://talentryx-app-prototype-39r2voisbo3erml4erxqtr.streamlit.app/)
+Also: [Streamlit prototype](https://github.com/Hitan547/talentryx-streamlit-prototype)  
+[![Demo](https://img.shields.io/badge/Live-Streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://talentryx-app-prototype-39r2voisbo3erml4erxqtr.streamlit.app/)
 
 </td>
 <td width="50%" valign="top">
@@ -164,7 +172,7 @@ Real-time network intrusion detection with Random Forest, NSL-KDD preprocessing,
 <td width="50%" valign="top">
 
 ### [Trader Sentiment Analysis](https://github.com/Hitan547/trader-sentiment-analysis)
-End-to-end data analysis of trader performance vs market sentiment on Hyperliquid — feature engineering, behavioral segmentation, statistical testing, and actionable strategy insights.
+End-to-end data analysis of trader performance vs market sentiment on Hyperliquid: feature engineering, behavioral segmentation, statistical testing, and actionable strategy insights.
 
 `Python` `pandas` `scipy` `Jupyter` `Visualization`
 
@@ -182,7 +190,7 @@ AI-powered PDF learning assistant with conversational Q&A, audio summaries, and 
 
 ---
 
-## ⚙️ Technical Stack
+## Technical Stack
 
 ### Languages
 <p>
@@ -213,33 +221,20 @@ AI-powered PDF learning assistant with conversational Q&A, audio summaries, and 
 
 ---
 
-## 📈 GitHub Activity
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hitan547&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9&ring_color=58A6FF" height="170" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Hitan547&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" height="170" alt="Streak Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hitan547&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9&langs_count=8" height="170" alt="Top Languages" />
-</div>
-
----
-
-## 🏆 Research & Achievements
+## Research & Achievements
 
 | Achievement | Detail |
 |:---|:---|
-| 📄 **Published Research** | *Multi-Dataset Conditional Text Generation for Emotion Augmentation* — WCSC 2026, Springer LNCS |
-| 🧪 **100K+ Synthetic Samples** | Generated minority-class training data improving macro-F1 across GoEmotions, TweetEval, and DAIR |
-| 🔍 **3 Production RAG Systems** | Agentic Corrective RAG, BIS Standards RAG, Proanalyst RAG — all with retrieval + validation + deployment |
-| 🏗️ **BIS Hackathon Results** | 100% Hit Rate @3, 0.95 MRR @5, 3.46s avg latency |
-| 🚀 **5+ Deployed AI Systems** | Live on Hugging Face Spaces, Streamlit Cloud, Vercel, and AWS |
-| 🧪 **Production Engineering** | CI/CD workflows, Docker builds, pytest suites, API health checks, SSE streaming |
+| **Research Paper Publishing** | *Multi-Dataset Conditional Text Generation for Emotion Augmentation* — WCSC 2026, Springer LNCS |
+| **100K+ Synthetic Samples** | Generated minority-class training data improving macro-F1 across GoEmotions, TweetEval, and DAIR |
+| **4 Deployed RAG Systems** | Agentic Corrective RAG, BIS Standards RAG, Local Pilot, Proanalyst RAG |
+| **BIS Hackathon Results** | 100% Hit Rate @3, 0.95 MRR @5, 3.46s average latency |
+| **5+ Deployed AI Systems** | Live on Hugging Face Spaces, Streamlit Cloud, Vercel, and AWS |
+| **Production Engineering** | CI/CD workflows, Docker builds, pytest suites, API health checks, SSE streaming |
 
 ---
 
-## 📜 Certifications
+## Certifications
 
 <p>
   <img src="https://img.shields.io/badge/DeepLearning.AI-NLP_in_TensorFlow-0056D2?style=for-the-badge" alt="DeepLearning.AI" />
@@ -251,7 +246,7 @@ AI-powered PDF learning assistant with conversational Q&A, audio summaries, and 
 
 <div align="center">
 
-### 💬 Let's Connect
+### Let's Connect
 
 <p>
   <a href="https://linkedin.com/in/hitan-k"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
