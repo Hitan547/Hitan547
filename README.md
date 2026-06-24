@@ -196,13 +196,12 @@ AI-powered PDF learning assistant with conversational Q&A, audio summaries, and 
 <td width="100%" valign="top">
 
 ### [Talentryx AI — AI Behavioral Interview & Proctoring SaaS](https://github.com/anbunathanr/ai-behavioral-interviewer-proctoring)
-
-**Internship / collaboration project focused on AI-assisted hiring, candidate assessment, and serverless SaaS architecture.**
+**Internship project · DIGITALTRANSOLS AI · GenAI SaaS Startup**
 
 Worked on a full-stack AI behavioral interview platform with recruiter workflows, resume/JD intelligence, candidate interview flow, AI scoring, proctoring signals, scorecards, reports, and AWS serverless deployment.
 
 <p>
-  <img src="https://img.shields.io/badge/Role-Internship%20Project-2563EB?style=for-the-badge" alt="Internship Project" />
+  <img src="https://img.shields.io/badge/Role-AI%20Engineering%20Intern-2563EB?style=for-the-badge" alt="AI Engineering Intern" />
   <img src="https://img.shields.io/badge/Product-AI%20Hiring%20SaaS-0F766E?style=for-the-badge" alt="AI Hiring SaaS" />
   <img src="https://img.shields.io/badge/Architecture-AWS%20Serverless-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Serverless" />
 </p>
@@ -210,6 +209,57 @@ Worked on a full-stack AI behavioral interview platform with recruiter workflows
 `React` `TypeScript` `Python` `AWS Lambda` `DynamoDB` `Cognito` `S3` `Step Functions` `Groq` `n8n` `pytest` `CI/CD`
 
 [![View Repository](https://img.shields.io/badge/View-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anbunathanr/ai-behavioral-interviewer-proctoring)
+
+</td>
+</tr>
+
+<tr>
+<td width="100%" valign="top">
+
+### [SentinelNet — AI Network Intrusion Detection System](https://github.com/Hitan547/sentinelnet)
+**Virtual Internship project · Infosys Springboard**
+
+Built a production-grade network intrusion detection system that classifies live traffic into 5 threat categories in real-time. Trained on NSL-KDD (125,973 records), with a full preprocessing pipeline, REST API, live dashboard, batch CSV analysis with streaming predictions, and Dockerized CI/CD deployment.
+
+<p>
+  <img src="https://img.shields.io/badge/Role-Virtual%20Intern-2563EB?style=for-the-badge" alt="Virtual Intern" />
+  <img src="https://img.shields.io/badge/Program-Infosys%20Springboard-0072C6?style=for-the-badge" alt="Infosys Springboard" />
+  <img src="https://img.shields.io/badge/System-Production%20ML-0F766E?style=for-the-badge" alt="Production ML" />
+</p>
+
+`Python` `scikit-learn` `Flask` `pandas` `Docker` `GitHub Actions` `HuggingFace Spaces` `Canvas API` `joblib`
+
+[![View Repository](https://img.shields.io/badge/View-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hitan547/sentinelnet)
+[![Live Demo](https://img.shields.io/badge/Live-HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/Hitan2004/sentinelnet)
+
+</td>
+</tr>
+
+<tr>
+<td width="100%" valign="top">
+
+### [Conditional Text Generation for Emotion Augmentation](https://github.com/Hitan547/-project-conditional-text-generation-and-augmentation-for-sentiment-classification)
+**Student Researcher · DSATM Bangalore · Published — Springer LNCS, WCSC 2026**
+
+Co-authored and solely implemented a Springer LNCS research paper on emotion-conditioned text generation for sentiment classification. Fine-tuned SmolLM-135M-Instruct with explicit emotion control tokens to synthesize minority-class training samples, then classified using RoBERTa + Optuna. Generated 100K+ synthetic samples evaluated across 3 benchmark datasets.
+
+<p>
+  <img src="https://img.shields.io/badge/Role-Student%20Researcher-2563EB?style=for-the-badge" alt="Student Researcher" />
+  <img src="https://img.shields.io/badge/Published-Springer%20LNCS-0F766E?style=for-the-badge" alt="Springer LNCS" />
+  <img src="https://img.shields.io/badge/Conference-WCSC%202026-7C3AED?style=for-the-badge" alt="WCSC 2026" />
+</p>
+
+**Results:**
+| Dataset | Macro-F1 |
+|---|---|
+| DAIR Emotion (6-class) | **0.97** |
+| GoEmotions (27-class) | **0.83** |
+| TweetEval (3-class) | **0.79** |
+
+`Python` `PyTorch` `HuggingFace Transformers` `RoBERTa` `SmolLM` `Optuna` `Google Colab`
+
+[![View Repository](https://img.shields.io/badge/View-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hitan547/-project-conditional-text-generation-and-augmentation-for-sentiment-classification)
+[![Read Paper](https://img.shields.io/badge/Read-Springer_Paper-blue?style=for-the-badge)](https://github.com/Hitan547/-project-conditional-text-generation-and-augmentation-for-sentiment-classification/blob/main/PID-130_research_paper_springer.pdf)
 
 </td>
 </tr>
